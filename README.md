@@ -19,6 +19,15 @@ This project implements a **Deep Learning model** to detect hate speech in tweet
 | 1 | Offensive Language | Content containing offensive language but not necessarily hate speech |
 | 2 | Neither | Neutral content without any offensive or hateful intent |
 
+## 📌 Important Note
+
+Among all notebooks in this repository, the **final and complete implementation** of the project is provided in the notebook:
+
+**`Team_5_DL_Project.ipynb`**
+
+All experiments, preprocessing steps, model training, evaluation, and final results are consolidated in this notebook. Other notebooks are intermediate or exploratory and are included for reference only.
+
+
 ## 🎯 Objectives
 
 - ✅ Explore and visualize the dataset
