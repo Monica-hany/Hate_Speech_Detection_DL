@@ -126,6 +126,21 @@ Embedding (32) → SpatialDropout (0.3) → Bidirectional LSTM (8) → Dense (32
 5. Remove stopwords
 6. Lemmatization
 
+## ⚠️ Limitations & Improvements
+
+### 🔹 Stratified Data Splitting (Missing Improvement)
+
+One limitation of the current implementation is **not using stratified splitting** when dividing the dataset into training and validation sets.
+
+**Why stratification is important:**
+- The dataset is **highly imbalanced**, especially for the *Hate Speech* class
+- Without stratification, some splits may contain **very few samples of minority classes**
+- This can lead to **biased evaluation** and **unstable performance metrics**
+
+**Improvement:**  
+Using **stratified train-validation splitting** ensures that each split preserves the **original class distribution**, leading to:
+- More reliable evaluation
+- Better generalization
 
 
 ## 📝 License
